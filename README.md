@@ -1,4 +1,4 @@
-# [libtorch](https://github.com/pytorch) v2.11 – Haswell-optimized build
+# [libTorch](https://github.com/pytorch/pytorch) v2.11 – Haswell-optimized build
 
 This repository provides a precompiled **LibTorch v2.11** (C++ PyTorch distribution) built specifically for **Intel Haswell** microarchitecture (`-march=haswell -mtune=haswell`) with optimized math libraries (MKL, MKLDNN, OpenMP).  
 CUDA, ROCm, and distributed training are disabled – this is a pure CPU build tailored for high‑performance inference and training on Haswell‑class CPUs.
