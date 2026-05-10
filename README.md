@@ -46,3 +46,11 @@ cmake .. \
   -DCMAKE_C_FLAGS="-march=haswell -mtune=haswell -O3 -ffast-math" \
   -DCMAKE_CXX_FLAGS="-march=haswell -mtune=haswell -O3 -ffast-math" \
   -DCMAKE_EXE_LINKER_FLAGS="-Wl,-rpath,\$ORIGIN"
+
+📜 License
+This repository only redistributes LibTorch, which is subject to the BSD‑3 license.
+The precompiled binaries are provided as‑is, without any warranty.
+
+🙏 Acknowledgments
+Built from PyTorch source using the configuration above.
+Intel MKL and oneDNN are property of Intel Corporation.
